@@ -1,0 +1,81 @@
+Mar 24 20:00 : state_file: Unrecognized line in state file: ## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
+Mar 24 20:00 : state_file: Unrecognized line in state file:
+Mar 25 01:42 : player: played "NEFFEX - Grateful [Copyright Free].mp3"
+Mar 25 01:45 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 25 01:57 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 25 02:13 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 25 02:21 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 25 02:26 : update: updating /Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3
+Mar 25 02:26 : update: updating /Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3
+Mar 25 02:26 : update: updating /Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3
+Mar 25 02:26 : update: updating /NEFFEX - Grateful [Copyright Free].mp3
+Mar 25 02:26 : update: updating /N3WPORT - Power (feat. braev) [NCS Release].mp3
+Mar 25 02:40 : update: added /Overdrive.m4a
+Mar 25 02:41 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 25 02:50 : player: played "Overdrive.m4a"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Mar 25 03:13 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Mar 26 00:42 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 26 01:18 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 26 01:22 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 26 01:29 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 26 01:34 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 26 01:46 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 26 01:51 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 26 02:08 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 28 14:20 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 28 14:41 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Mar 28 14:41 : update: added /11k.m4a
+Mar 28 14:41 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Mar 28 14:44 : player: played "11k.m4a"
+Mar 28 14:46 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 28 14:54 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Mar 28 15:10 : player: played "11k.m4a"
+Mar 28 15:11 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Mar 28 15:14 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Mar 28 15:19 : player: played "11k.m4a"
+Mar 28 16:29 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Mar 28 16:30 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Mar 28 16:31 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Mar 28 16:33 : player: played "11k.m4a"
+Mar 28 16:40 : player: played "Overdrive.m4a"
+Mar 30 16:21 : player: played "Overdrive.m4a"

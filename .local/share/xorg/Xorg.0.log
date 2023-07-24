@@ -1,0 +1,1050 @@
+[    33.801] 
+X.Org X Server 1.21.1.7
+X Protocol Version 11, Revision 0
+[    33.802] Current Operating System: Linux yourbetterone 6.2.8-arch1-1 #1 SMP PREEMPT_DYNAMIC Wed, 22 Mar 2023 22:52:35 +0000 x86_64
+[    33.802] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux root=UUID=f8601c22-c09f-4ee1-a2d9-f0ede54c6a58 rw nowatchdog mitigations=off loglevel=0
+[    33.802]  
+[    33.802] Current version of pixman: 0.42.2
+[    33.802] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    33.802] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    33.803] (==) Log file: "/home/docfaizal/.local/share/xorg/Xorg.0.log", Time: Tue Apr  4 15:06:31 2023
+[    33.832] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    33.832] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    33.890] (==) No Layout section.  Using the first Screen section.
+[    33.890] (==) No screen section available. Using defaults.
+[    33.890] (**) |-->Screen "Default Screen Section" (0)
+[    33.890] (**) |   |-->Monitor "<default monitor>"
+[    33.891] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    33.891] (==) Automatically adding devices
+[    33.891] (==) Automatically enabling devices
+[    33.891] (==) Automatically adding GPU devices
+[    33.891] (==) Automatically binding GPU devices
+[    33.892] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    33.935] (WW) The directory "/usr/share/fonts/OTF" does not exist.
+[    33.936] 	Entry deleted from font path.
+[    33.936] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[    33.936] 	Entry deleted from font path.
+[    33.969] (==) FontPath set to:
+	/usr/share/fonts/misc,
+	/usr/share/fonts/TTF,
+	/usr/share/fonts/100dpi,
+	/usr/share/fonts/75dpi
+[    33.969] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    33.969] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    33.969] (II) Module ABI versions:
+[    33.969] 	X.Org ANSI C Emulation: 0.4
+[    33.969] 	X.Org Video Driver: 25.2
+[    33.969] 	X.Org XInput driver : 24.4
+[    33.969] 	X.Org Server Extension : 10.0
+[    33.973] (++) using VT number 2
+
+[    33.973] (--) controlling tty is VT number 2, auto-enabling KeepTty
+[    33.977] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[    33.982] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    33.982] (II) Platform probe for /sys/devices/pci0000:00/0000:00:01.0/drm/card0
+[    33.984] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 0
+[    34.002] (--) PCI:*(0@0:1:0) 1002:9830:1025:076b rev 0, Mem @ 0xe0000000/268435456, 0xf0800000/8388608, 0xf0200000/262144, I/O @ 0x00003000/256, BIOS @ 0x????????/131072
+[    34.002] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[    34.002] (II) LoadModule: "glx"
+[    34.004] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    34.066] (II) Module glx: vendor="X.Org Foundation"
+[    34.067] 	compiled for 1.21.1.7, module version = 1.0.0
+[    34.067] 	ABI class: X.Org Server Extension, version 10.0
+[    34.067] (II) Applying OutputClass "Radeon" to /dev/dri/card0
+[    34.067] 	loading driver: radeon
+[    34.067] (==) Matched radeon as autoconfigured driver 0
+[    34.067] (==) Matched ati as autoconfigured driver 1
+[    34.067] (==) Matched modesetting as autoconfigured driver 2
+[    34.067] (==) Matched fbdev as autoconfigured driver 3
+[    34.067] (==) Matched vesa as autoconfigured driver 4
+[    34.067] (==) Assigned the driver to the xf86ConfigLayout
+[    34.067] (II) LoadModule: "radeon"
+[    34.067] (II) Loading /usr/lib/xorg/modules/drivers/radeon_drv.so
+[    34.114] (II) Module radeon: vendor="X.Org Foundation"
+[    34.114] 	compiled for 1.21.1.4, module version = 19.1.0
+[    34.114] 	Module class: X.Org Video Driver
+[    34.114] 	ABI class: X.Org Video Driver, version 25.2
+[    34.114] (II) LoadModule: "ati"
+[    34.115] (II) Loading /usr/lib/xorg/modules/drivers/ati_drv.so
+[    34.122] (II) Module ati: vendor="X.Org Foundation"
+[    34.122] 	compiled for 1.21.1.4, module version = 19.1.0
+[    34.122] 	Module class: X.Org Video Driver
+[    34.122] 	ABI class: X.Org Video Driver, version 25.2
+[    34.122] (II) LoadModule: "modesetting"
+[    34.123] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    34.131] (II) Module modesetting: vendor="X.Org Foundation"
+[    34.131] 	compiled for 1.21.1.7, module version = 1.21.1
+[    34.131] 	Module class: X.Org Video Driver
+[    34.131] 	ABI class: X.Org Video Driver, version 25.2
+[    34.131] (II) LoadModule: "fbdev"
+[    34.131] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    34.132] (II) Module fbdev: vendor="X.Org Foundation"
+[    34.132] 	compiled for 1.21.1.1, module version = 0.5.0
+[    34.132] 	Module class: X.Org Video Driver
+[    34.132] 	ABI class: X.Org Video Driver, version 25.2
+[    34.132] (II) LoadModule: "vesa"
+[    34.132] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    34.133] (II) Module vesa: vendor="X.Org Foundation"
+[    34.133] 	compiled for 1.21.1.4, module version = 2.6.0
+[    34.133] 	Module class: X.Org Video Driver
+[    34.133] 	ABI class: X.Org Video Driver, version 25.2
+[    34.133] (II) RADEON: Driver for ATI/AMD Radeon chipsets:
+	ATI Radeon Mobility X600 (M24), ATI FireMV 2400,
+	ATI Radeon Mobility X300 (M24), ATI FireGL M24 GL,
+	ATI Radeon X600 (RV380), ATI FireGL V3200 (RV380),
+	ATI Radeon IGP320 (A3), ATI Radeon IGP330/340/350 (A4),
+	ATI Radeon 9500, ATI Radeon 9600TX, ATI FireGL Z1, ATI Radeon 9800SE,
+	ATI Radeon 9800, ATI FireGL X2, ATI Radeon 9600, ATI Radeon 9600SE,
+	ATI Radeon 9600XT, ATI FireGL T2, ATI Radeon 9650, ATI FireGL RV360,
+	ATI Radeon 7000 IGP (A4+), ATI Radeon 8500 AIW,
+	ATI Radeon IGP320M (U1), ATI Radeon IGP330M/340M/350M (U2),
+	ATI Radeon Mobility 7000 IGP, ATI Radeon 9000/PRO, ATI Radeon 9000,
+	ATI Radeon X800 (R420), ATI Radeon X800PRO (R420),
+	ATI Radeon X800SE (R420), ATI FireGL X3 (R420),
+	ATI Radeon Mobility 9800 (M18), ATI Radeon X800 SE (R420),
+	ATI Radeon X800XT (R420), ATI Radeon X800 VE (R420),
+	ATI Radeon X850 (R480), ATI Radeon X850 XT (R480),
+	ATI Radeon X850 SE (R480), ATI Radeon X850 PRO (R480),
+	ATI Radeon X850 XT PE (R480), ATI Radeon Mobility M7,
+	ATI Mobility FireGL 7800 M7, ATI Radeon Mobility M6,
+	ATI FireGL Mobility 9000 (M9), ATI Radeon Mobility 9000 (M9),
+	ATI Radeon 9700 Pro, ATI Radeon 9700/9500Pro, ATI FireGL X1,
+	ATI Radeon 9800PRO, ATI Radeon 9800XT,
+	ATI Radeon Mobility 9600/9700 (M10/M11),
+	ATI Radeon Mobility 9600 (M10), ATI Radeon Mobility 9600 (M11),
+	ATI FireGL Mobility T2 (M10), ATI FireGL Mobility T2e (M11),
+	ATI Radeon, ATI FireGL 8700/8800, ATI Radeon 8500, ATI Radeon 9100,
+	ATI Radeon 7500, ATI Radeon VE/7000, ATI ES1000,
+	ATI Radeon Mobility X300 (M22), ATI Radeon Mobility X600 SE (M24C),
+	ATI FireGL M22 GL, ATI Radeon X800 (R423), ATI Radeon X800PRO (R423),
+	ATI Radeon X800LE (R423), ATI Radeon X800SE (R423),
+	ATI Radeon X800 XTP (R430), ATI Radeon X800 XL (R430),
+	ATI Radeon X800 SE (R430), ATI Radeon X800 (R430),
+	ATI FireGL V7100 (R423), ATI FireGL V5100 (R423),
+	ATI FireGL unknown (R423), ATI Mobility FireGL V5000 (M26),
+	ATI Mobility Radeon X700 XL (M26), ATI Mobility Radeon X700 (M26),
+	ATI Radeon X550XTX, ATI Radeon 9100 IGP (A5),
+	ATI Radeon Mobility 9100 IGP (U3), ATI Radeon XPRESS 200,
+	ATI Radeon XPRESS 200M, ATI Radeon 9250, ATI Radeon 9200,
+	ATI Radeon 9200SE, ATI FireMV 2200, ATI Radeon X300 (RV370),
+	ATI Radeon X600 (RV370), ATI Radeon X550 (RV370),
+	ATI FireGL V3100 (RV370), ATI FireMV 2200 PCIE (RV370),
+	ATI Radeon Mobility 9200 (M9+), ATI Mobility Radeon X800 XT (M28),
+	ATI Mobility FireGL V5100 (M28), ATI Mobility Radeon X800 (M28),
+	ATI Radeon X850, ATI unknown Radeon / FireGL (R480),
+	ATI Radeon X800XT (R423), ATI FireGL V5000 (RV410),
+	ATI Radeon X700 XT (RV410), ATI Radeon X700 PRO (RV410),
+	ATI Radeon X700 SE (RV410), ATI Radeon X700 (RV410),
+	ATI Radeon X1800, ATI Mobility Radeon X1800 XT,
+	ATI Mobility Radeon X1800, ATI Mobility FireGL V7200,
+	ATI FireGL V7200, ATI FireGL V5300, ATI Mobility FireGL V7100,
+	ATI FireGL V7300, ATI FireGL V7350, ATI Radeon X1600, ATI RV505,
+	ATI Radeon X1300/X1550, ATI Radeon X1550, ATI M54-GL,
+	ATI Mobility Radeon X1400, ATI Radeon X1550 64-bit,
+	ATI Mobility Radeon X1300, ATI Radeon X1300, ATI FireGL V3300,
+	ATI FireGL V3350, ATI Mobility Radeon X1450,
+	ATI Mobility Radeon X2300, ATI Mobility Radeon X1350,
+	ATI FireMV 2250, ATI Radeon X1650, ATI Mobility FireGL V5200,
+	ATI Mobility Radeon X1600, ATI Radeon X1300 XT/X1600 Pro,
+	ATI FireGL V3400, ATI Mobility FireGL V5250,
+	ATI Mobility Radeon X1700, ATI Mobility Radeon X1700 XT,
+	ATI FireGL V5200, ATI Radeon X2300HD, ATI Mobility Radeon HD 2300,
+	ATI Radeon X1950, ATI Radeon X1900, ATI AMD Stream Processor,
+	ATI RV560, ATI Mobility Radeon X1900, ATI Radeon X1950 GT, ATI RV570,
+	ATI FireGL V7400, ATI Radeon 9100 PRO IGP,
+	ATI Radeon Mobility 9200 IGP, ATI Radeon X1200, ATI RS740,
+	ATI RS740M, ATI Radeon HD 2900 XT, ATI Radeon HD 2900 Pro,
+	ATI Radeon HD 2900 GT, ATI FireGL V8650, ATI FireGL V8600,
+	ATI FireGL V7600, ATI Radeon 4800 Series, ATI Radeon HD 4870 x2,
+	ATI Radeon HD 4850 x2, ATI FirePro V8750 (FireGL),
+	ATI FirePro V7760 (FireGL), ATI Mobility RADEON HD 4850,
+	ATI Mobility RADEON HD 4850 X2, ATI FirePro RV770,
+	AMD FireStream 9270, AMD FireStream 9250, ATI FirePro V8700 (FireGL),
+	ATI Mobility RADEON HD 4870, ATI Mobility RADEON M98,
+	ATI FirePro M7750, ATI M98, ATI Mobility Radeon HD 4650,
+	ATI Radeon RV730 (AGP), ATI Mobility Radeon HD 4670,
+	ATI FirePro M5750, ATI RV730XT [Radeon HD 4670], ATI RADEON E4600,
+	ATI Radeon HD 4600 Series, ATI RV730 PRO [Radeon HD 4650],
+	ATI FirePro V7750 (FireGL), ATI FirePro V5700 (FireGL),
+	ATI FirePro V3750 (FireGL), ATI Mobility Radeon HD 4830,
+	ATI Mobility Radeon HD 4850, ATI FirePro M7740, ATI RV740,
+	ATI Radeon HD 4770, ATI Radeon HD 4700 Series, ATI RV610,
+	ATI Radeon HD 2400 XT, ATI Radeon HD 2400 Pro,
+	ATI Radeon HD 2400 PRO AGP, ATI FireGL V4000, ATI Radeon HD 2350,
+	ATI Mobility Radeon HD 2400 XT, ATI Mobility Radeon HD 2400,
+	ATI RADEON E2400, ATI FireMV 2260, ATI RV670, ATI Radeon HD3870,
+	ATI Mobility Radeon HD 3850, ATI Radeon HD3850,
+	ATI Mobility Radeon HD 3850 X2, ATI Mobility Radeon HD 3870,
+	ATI Mobility Radeon HD 3870 X2, ATI Radeon HD3870 X2,
+	ATI FireGL V7700, ATI Radeon HD3690, AMD Firestream 9170,
+	ATI Radeon HD 4550, ATI Radeon RV710, ATI Radeon HD 4350,
+	ATI Mobility Radeon 4300 Series, ATI Mobility Radeon 4500 Series,
+	ATI FirePro RG220, ATI Mobility Radeon 4330, ATI RV630,
+	ATI Mobility Radeon HD 2600, ATI Mobility Radeon HD 2600 XT,
+	ATI Radeon HD 2600 XT AGP, ATI Radeon HD 2600 Pro AGP,
+	ATI Radeon HD 2600 XT, ATI Radeon HD 2600 Pro, ATI Gemini RV630,
+	ATI Gemini Mobility Radeon HD 2600 XT, ATI FireGL V5600,
+	ATI FireGL V3600, ATI Radeon HD 2600 LE,
+	ATI Mobility FireGL Graphics Processor, ATI Radeon HD 3470,
+	ATI Mobility Radeon HD 3430, ATI Mobility Radeon HD 3400 Series,
+	ATI Radeon HD 3450, ATI Radeon HD 3430, ATI FirePro V3700,
+	ATI FireMV 2450, ATI Radeon HD 3600 Series, ATI Radeon HD 3650 AGP,
+	ATI Radeon HD 3600 PRO, ATI Radeon HD 3600 XT,
+	ATI Mobility Radeon HD 3650, ATI Mobility Radeon HD 3670,
+	ATI Mobility FireGL V5700, ATI Mobility FireGL V5725,
+	ATI Radeon HD 3200 Graphics, ATI Radeon 3100 Graphics,
+	ATI Radeon HD 3300 Graphics, ATI Radeon 3000 Graphics, SUMO, SUMO2,
+	ATI Radeon HD 4200, ATI Radeon 4100, ATI Mobility Radeon HD 4200,
+	ATI Mobility Radeon 4100, ATI Radeon HD 4290, ATI Radeon HD 4250,
+	AMD Radeon HD 6310 Graphics, AMD Radeon HD 6250 Graphics,
+	AMD Radeon HD 6300 Series Graphics,
+	AMD Radeon HD 6200 Series Graphics, PALM, CYPRESS,
+	ATI FirePro (FireGL) Graphics Adapter, AMD Firestream 9370,
+	AMD Firestream 9350, ATI Radeon HD 5800 Series,
+	ATI Radeon HD 5900 Series, ATI Mobility Radeon HD 5800 Series,
+	ATI Radeon HD 5700 Series, ATI Radeon HD 6700 Series,
+	ATI Mobility Radeon HD 5000 Series, ATI Mobility Radeon HD 5570,
+	ATI Radeon HD 5670, ATI Radeon HD 5570, ATI Radeon HD 5500 Series,
+	REDWOOD, ATI Mobility Radeon Graphics, CEDAR, ATI FirePro 2270,
+	ATI Radeon HD 5450, CAYMAN, AMD Radeon HD 6900 Series,
+	AMD Radeon HD 6900M Series, Mobility Radeon HD 6000 Series, BARTS,
+	AMD Radeon HD 6800 Series, AMD Radeon HD 6700 Series, TURKS, CAICOS,
+	ARUBA, TAHITI, PITCAIRN, VERDE, OLAND, HAINAN, BONAIRE, KABINI,
+	MULLINS, KAVERI, HAWAII
+[    34.138] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    34.138] (II) FBDEV: driver for framebuffer: fbdev
+[    34.138] (II) VESA: driver for VESA chipsets: vesa
+[    34.138] xf86EnableIO: failed to enable I/O ports 0000-03ff (Operation not permitted)
+[    34.138] (II) [KMS] Kernel modesetting enabled.
+[    34.138] (WW) Falling back to old probe method for modesetting
+[    34.138] (WW) Falling back to old probe method for fbdev
+[    34.138] (II) Loading sub module "fbdevhw"
+[    34.138] (II) LoadModule: "fbdevhw"
+[    34.139] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    34.139] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    34.139] 	compiled for 1.21.1.7, module version = 0.0.2
+[    34.139] 	ABI class: X.Org Video Driver, version 25.2
+[    34.139] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    34.139] (II) RADEON(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    34.139] (==) RADEON(0): Depth 24, (--) framebuffer bpp 32
+[    34.139] (II) RADEON(0): Pixel depth = 24 bits stored in 4 bytes (32 bpp pixmaps)
+[    34.139] (==) RADEON(0): Default visual is TrueColor
+[    34.139] (==) RADEON(0): RGB weight 888
+[    34.139] (II) RADEON(0): Using 8 bits per RGB (8 bit DAC)
+[    34.139] (--) RADEON(0): Chipset: "KABINI" (ChipID = 0x9830)
+[    34.139] (II) Loading sub module "fb"
+[    34.139] (II) LoadModule: "fb"
+[    34.139] (II) Module "fb" already built-in
+[    34.139] (II) Loading sub module "dri2"
+[    34.139] (II) LoadModule: "dri2"
+[    34.140] (II) Module "dri2" already built-in
+[    36.953] (II) Loading sub module "glamoregl"
+[    36.953] (II) LoadModule: "glamoregl"
+[    36.953] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[    37.030] (II) Module glamoregl: vendor="X.Org Foundation"
+[    37.030] 	compiled for 1.21.1.7, module version = 1.0.1
+[    37.030] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    37.207] (II) RADEON(0): glamor X acceleration enabled on KABINI (, LLVM 15.0.7, DRM 2.50, 6.2.8-arch1-1)
+[    37.207] (II) RADEON(0): glamor detected, initialising EGL layer.
+[    37.208] (II) RADEON(0): KMS Color Tiling: enabled
+[    37.208] (II) RADEON(0): KMS Color Tiling 2D: enabled
+[    37.208] (==) RADEON(0): TearFree property default: auto
+[    37.208] (II) RADEON(0): KMS Pageflipping: enabled
+[    37.231] (II) RADEON(0): Output eDP has no monitor section
+[    37.233] (II) RADEON(0): Output HDMI-0 has no monitor section
+[    37.246] (II) RADEON(0): Output VGA-0 has no monitor section
+[    37.246] (WW) RADEON(0): 3 ZaphodHeads crtcs unavailable. Some outputs will stay off.
+[    37.254] (II) RADEON(0): EDID for output eDP
+[    37.254] (II) RADEON(0): Manufacturer: LGD  Model: 3f8  Serial#: 0
+[    37.254] (II) RADEON(0): Year: 2012  Week: 0
+[    37.254] (II) RADEON(0): EDID Version: 1.4
+[    37.254] (II) RADEON(0): Digital Display Input
+[    37.254] (II) RADEON(0): 6 bits per channel
+[    37.254] (II) RADEON(0): Digital interface is DisplayPort
+[    37.254] (II) RADEON(0): Max Image Size [cm]: horiz.: 35  vert.: 19
+[    37.254] (II) RADEON(0): Gamma: 2.20
+[    37.254] (II) RADEON(0): DPMS capabilities: StandBy Suspend Off
+[    37.254] (II) RADEON(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+[    37.254] (II) RADEON(0): First detailed timing is preferred mode
+[    37.254] (II) RADEON(0): Preferred mode is native pixel format and refresh rate
+[    37.254] (II) RADEON(0): redX: 0.578 redY: 0.344   greenX: 0.337 greenY: 0.571
+[    37.254] (II) RADEON(0): blueX: 0.159 blueY: 0.120   whiteX: 0.313 whiteY: 0.329
+[    37.254] (II) RADEON(0): Manufacturer's mask: 0
+[    37.254] (II) RADEON(0): Supported detailed timing:
+[    37.254] (II) RADEON(0): clock: 76.3 MHz   Image Size:  345 x 194 mm
+[    37.255] (II) RADEON(0): h_active: 1366  h_sync: 1414  h_sync_end 1446 h_blank_end 1610 h_border: 0
+[    37.255] (II) RADEON(0): v_active: 768  v_sync: 771  v_sync_end 776 v_blanking: 790 v_border: 0
+[    37.255] (II) RADEON(0):  LG Display
+[    37.255] (II) RADEON(0):  LP156WH3-TPS1
+[    37.255] (II) RADEON(0): EDID (in hex):
+[    37.255] (II) RADEON(0): 	00ffffffffffff0030e4f80300000000
+[    37.255] (II) RADEON(0): 	0016010495231378ea05f59458569228
+[    37.255] (II) RADEON(0): 	1e505400000001010101010101010101
+[    37.255] (II) RADEON(0): 	010101010101ce1d56f4500016303020
+[    37.255] (II) RADEON(0): 	350059c2100000190000000000000000
+[    37.255] (II) RADEON(0): 	00000000000000000000000000fe004c
+[    37.255] (II) RADEON(0): 	4720446973706c61790a2020000000fe
+[    37.255] (II) RADEON(0): 	004c503135365748332d545053310025
+[    37.255] (II) RADEON(0): Printing probed modes for output eDP
+[    37.255] (II) RADEON(0): Modeline "1366x768"x60.0   76.30  1366 1414 1446 1610  768 771 776 790 -hsync -vsync (47.4 kHz eP)
+[    37.255] (II) RADEON(0): Modeline "1280x720"x60.0   74.65  1280 1344 1472 1664  720 723 728 748 -hsync +vsync (44.9 kHz)
+[    37.255] (II) RADEON(0): Modeline "1152x768"x59.9   71.95  1152 1216 1328 1504  768 771 781 798 -hsync +vsync (47.8 kHz)
+[    37.255] (II) RADEON(0): Modeline "1024x768"x59.9   63.53  1024 1072 1176 1328  768 771 775 798 -hsync +vsync (47.8 kHz)
+[    37.255] (II) RADEON(0): Modeline "800x600"x60.0   38.31  800 832 912 1024  600 603 607 624 -hsync +vsync (37.4 kHz)
+[    37.256] (II) RADEON(0): Modeline "848x480"x59.9   31.65  848 872 952 1056  480 483 493 500 -hsync +vsync (30.0 kHz)
+[    37.256] (II) RADEON(0): Modeline "720x480"x59.9   26.85  720 744 808 896  480 483 493 500 -hsync +vsync (30.0 kHz)
+[    37.256] (II) RADEON(0): Modeline "640x480"x59.9   23.98  640 664 720 800  480 483 487 500 -hsync +vsync (30.0 kHz)
+[    37.257] (II) RADEON(0): EDID for output HDMI-0
+[    37.269] (II) RADEON(0): EDID for output VGA-0
+[    37.269] (II) RADEON(0): Output eDP connected
+[    37.269] (II) RADEON(0): Output HDMI-0 disconnected
+[    37.269] (II) RADEON(0): Output VGA-0 disconnected
+[    37.270] (II) RADEON(0): Using exact sizes for initial modes
+[    37.270] (II) RADEON(0): Output eDP using initial mode 1366x768 +0+0
+[    37.270] (II) RADEON(0): mem size init: gart size :7fb66000 vram size: s:20000000 visible:f4be000
+[    37.270] (==) RADEON(0): DPI set to (96, 96)
+[    37.270] (==) RADEON(0): Using gamma correction (1.0, 1.0, 1.0)
+[    37.270] (II) Loading sub module "ramdac"
+[    37.270] (II) LoadModule: "ramdac"
+[    37.270] (II) Module "ramdac" already built-in
+[    37.270] (II) UnloadModule: "modesetting"
+[    37.270] (II) Unloading modesetting
+[    37.271] (II) UnloadModule: "fbdev"
+[    37.271] (II) Unloading fbdev
+[    37.271] (II) UnloadSubModule: "fbdevhw"
+[    37.271] (II) Unloading fbdevhw
+[    37.271] (II) UnloadModule: "vesa"
+[    37.271] (II) Unloading vesa
+[    37.272] (II) RADEON(0): [DRI2] Setup complete
+[    37.272] (II) RADEON(0): [DRI2]   DRI driver: radeonsi
+[    37.272] (II) RADEON(0): [DRI2]   VDPAU driver: radeonsi
+[    37.273] (II) RADEON(0): Front buffer size: 4224K
+[    37.273] (II) RADEON(0): VRAM usage limit set to 221724K
+[    37.286] (II) RADEON(0): SYNC extension fences enabled
+[    37.286] (II) RADEON(0): Present extension enabled
+[    37.286] (==) RADEON(0): DRI3 enabled
+[    37.286] (==) RADEON(0): Backing store enabled
+[    37.286] (II) RADEON(0): Direct rendering enabled
+[    37.620] (II) RADEON(0): Use GLAMOR acceleration.
+[    37.620] (II) RADEON(0): Acceleration enabled
+[    37.620] (==) RADEON(0): DPMS enabled
+[    37.620] (==) RADEON(0): Silken mouse enabled
+[    37.620] (II) RADEON(0): Set up textured video (glamor)
+[    37.621] (II) RADEON(0): [XvMC] Associated with GLAMOR Textured Video.
+[    37.621] (II) RADEON(0): [XvMC] Extension initialized.
+[    37.636] (II) Initializing extension Generic Event Extension
+[    37.636] (II) Initializing extension SHAPE
+[    37.636] (II) Initializing extension MIT-SHM
+[    37.637] (II) Initializing extension XInputExtension
+[    37.637] (II) Initializing extension XTEST
+[    37.637] (II) Initializing extension BIG-REQUESTS
+[    37.638] (II) Initializing extension SYNC
+[    37.638] (II) Initializing extension XKEYBOARD
+[    37.638] (II) Initializing extension XC-MISC
+[    37.638] (II) Initializing extension SECURITY
+[    37.639] (II) Initializing extension XFIXES
+[    37.639] (II) Initializing extension RENDER
+[    37.639] (II) Initializing extension RANDR
+[    37.640] (II) Initializing extension COMPOSITE
+[    37.640] (II) Initializing extension DAMAGE
+[    37.640] (II) Initializing extension MIT-SCREEN-SAVER
+[    37.641] (II) Initializing extension DOUBLE-BUFFER
+[    37.641] (II) Initializing extension RECORD
+[    37.641] (II) Initializing extension DPMS
+[    37.641] (II) Initializing extension Present
+[    37.642] (II) Initializing extension DRI3
+[    37.642] (II) Initializing extension X-Resource
+[    37.642] (II) Initializing extension XVideo
+[    37.642] (II) Initializing extension XVideo-MotionCompensation
+[    37.643] (II) Initializing extension GLX
+[    37.656] (II) AIGLX: Loaded and initialized radeonsi
+[    37.656] (II) GLX: Initialized DRI2 GL provider for screen 0
+[    37.656] (II) Initializing extension XFree86-VidModeExtension
+[    37.657] (II) Initializing extension XFree86-DGA
+[    37.657] (II) Initializing extension XFree86-DRI
+[    37.657] (II) Initializing extension DRI2
+[    37.658] (II) RADEON(0): Setting screen physical size to 361 x 203
+[    39.019] (II) config/udev: Adding input device Power Button (/dev/input/event3)
+[    39.019] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    39.019] (**) Power Button: Applying InputClass "system-keyboard"
+[    39.019] (II) LoadModule: "libinput"
+[    39.019] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    39.051] (II) Module libinput: vendor="X.Org Foundation"
+[    39.051] 	compiled for 1.21.1.3, module version = 1.2.1
+[    39.051] 	Module class: X.Org XInput Driver
+[    39.051] 	ABI class: X.Org XInput driver, version 24.4
+[    39.051] (II) Using input driver 'libinput' for 'Power Button'
+[    39.053] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 26 paused 0
+[    39.053] (**) Power Button: always reports core events
+[    39.054] (**) Option "Device" "/dev/input/event3"
+[    39.109] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[    39.109] (II) event3  - Power Button: device is a keyboard
+[    39.109] (II) event3  - Power Button: device removed
+[    39.110] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input3/event3"
+[    39.110] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    39.110] (**) Option "xkb_layout" "us"
+[    39.111] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[    39.112] (II) event3  - Power Button: device is a keyboard
+[    39.113] (II) config/udev: Adding input device Video Bus (/dev/input/event6)
+[    39.113] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    39.113] (**) Video Bus: Applying InputClass "system-keyboard"
+[    39.113] (II) Using input driver 'libinput' for 'Video Bus'
+[    39.115] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 29 paused 0
+[    39.115] (**) Video Bus: always reports core events
+[    39.115] (**) Option "Device" "/dev/input/event6"
+[    39.117] (II) event6  - Video Bus: is tagged by udev as: Keyboard
+[    39.118] (II) event6  - Video Bus: device is a keyboard
+[    39.119] (II) event6  - Video Bus: device removed
+[    39.119] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input7/event6"
+[    39.119] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    39.119] (**) Option "xkb_layout" "us"
+[    39.123] (II) event6  - Video Bus: is tagged by udev as: Keyboard
+[    39.123] (II) event6  - Video Bus: device is a keyboard
+[    39.126] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[    39.126] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    39.126] (**) Power Button: Applying InputClass "system-keyboard"
+[    39.126] (II) Using input driver 'libinput' for 'Power Button'
+[    39.128] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 30 paused 0
+[    39.128] (**) Power Button: always reports core events
+[    39.128] (**) Option "Device" "/dev/input/event0"
+[    39.130] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    39.131] (II) event0  - Power Button: device is a keyboard
+[    39.131] (II) event0  - Power Button: device removed
+[    39.131] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[    39.131] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[    39.131] (**) Option "xkb_layout" "us"
+[    39.136] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    39.136] (II) event0  - Power Button: device is a keyboard
+[    39.137] (II) config/udev: Adding input device Lid Switch (/dev/input/event1)
+[    39.137] (II) No input driver specified, ignoring this device.
+[    39.137] (II) This device may have been added with another device file.
+[    39.139] (II) config/udev: Adding input device Sleep Button (/dev/input/event2)
+[    39.139] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[    39.139] (**) Sleep Button: Applying InputClass "system-keyboard"
+[    39.139] (II) Using input driver 'libinput' for 'Sleep Button'
+[    39.141] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 31 paused 0
+[    39.141] (**) Sleep Button: always reports core events
+[    39.141] (**) Option "Device" "/dev/input/event2"
+[    39.143] (II) event2  - Sleep Button: is tagged by udev as: Keyboard
+[    39.143] (II) event2  - Sleep Button: device is a keyboard
+[    39.144] (II) event2  - Sleep Button: device removed
+[    39.144] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2/event2"
+[    39.144] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9)
+[    39.144] (**) Option "xkb_layout" "us"
+[    39.146] (II) event2  - Sleep Button: is tagged by udev as: Keyboard
+[    39.146] (II) event2  - Sleep Button: device is a keyboard
+[    39.148] (II) config/udev: Adding input device HDA ATI HDMI HDMI/DP,pcm=3 (/dev/input/event10)
+[    39.148] (II) No input driver specified, ignoring this device.
+[    39.148] (II) This device may have been added with another device file.
+[    39.150] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/event5)
+[    39.150] (**) Logitech USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[    39.150] (II) Using input driver 'libinput' for 'Logitech USB Optical Mouse'
+[    39.153] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 32 paused 0
+[    39.153] (**) Logitech USB Optical Mouse: always reports core events
+[    39.153] (**) Option "Device" "/dev/input/event5"
+[    39.156] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[    39.156] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[    39.157] (II) event5  - Logitech USB Optical Mouse: device removed
+[    39.157] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:10.0/usb5/5-1/5-1:1.0/0003:046D:C077.0001/input/input6/event5"
+[    39.157] (II) XINPUT: Adding extended input device "Logitech USB Optical Mouse" (type: MOUSE, id 10)
+[    39.157] (**) Option "AccelerationScheme" "none"
+[    39.157] (**) Logitech USB Optical Mouse: (accel) selected scheme none/0
+[    39.157] (**) Logitech USB Optical Mouse: (accel) acceleration factor: 2.000
+[    39.157] (**) Logitech USB Optical Mouse: (accel) acceleration threshold: 4
+[    39.160] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[    39.161] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[    39.163] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/mouse0)
+[    39.163] (II) No input driver specified, ignoring this device.
+[    39.163] (II) This device may have been added with another device file.
+[    39.164] (II) config/udev: Adding input device HD WebCam: HD WebCam (/dev/input/event11)
+[    39.164] (**) HD WebCam: HD WebCam: Applying InputClass "libinput keyboard catchall"
+[    39.164] (**) HD WebCam: HD WebCam: Applying InputClass "system-keyboard"
+[    39.164] (II) Using input driver 'libinput' for 'HD WebCam: HD WebCam'
+[    39.166] (II) systemd-logind: got fd for /dev/input/event11 13:75 fd 33 paused 0
+[    39.166] (**) HD WebCam: HD WebCam: always reports core events
+[    39.166] (**) Option "Device" "/dev/input/event11"
+[    39.170] (II) event11 - HD WebCam: HD WebCam: is tagged by udev as: Keyboard
+[    39.170] (II) event11 - HD WebCam: HD WebCam: device is a keyboard
+[    39.170] (II) event11 - HD WebCam: HD WebCam: device removed
+[    39.171] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:13.2/usb3/3-1/3-1:1.0/input/input12/event11"
+[    39.171] (II) XINPUT: Adding extended input device "HD WebCam: HD WebCam" (type: KEYBOARD, id 11)
+[    39.171] (**) Option "xkb_layout" "us"
+[    39.176] (II) event11 - HD WebCam: HD WebCam: is tagged by udev as: Keyboard
+[    39.176] (II) event11 - HD WebCam: HD WebCam: device is a keyboard
+[    39.177] (II) config/udev: Adding input device HD-Audio Generic Headphone (/dev/input/event12)
+[    39.177] (II) No input driver specified, ignoring this device.
+[    39.177] (II) This device may have been added with another device file.
+[    39.179] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event4)
+[    39.180] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    39.180] (**) AT Translated Set 2 keyboard: Applying InputClass "system-keyboard"
+[    39.180] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    39.182] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 34 paused 0
+[    39.182] (**) AT Translated Set 2 keyboard: always reports core events
+[    39.182] (**) Option "Device" "/dev/input/event4"
+[    39.186] (II) event4  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    39.186] (II) event4  - AT Translated Set 2 keyboard: device is a keyboard
+[    39.190] (II) event4  - AT Translated Set 2 keyboard: device removed
+[    39.190] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input4/event4"
+[    39.190] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 12)
+[    39.190] (**) Option "xkb_layout" "us"
+[    39.194] (II) event4  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    39.194] (II) event4  - AT Translated Set 2 keyboard: device is a keyboard
+[    39.201] (II) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/event9)
+[    39.201] (**) ETPS/2 Elantech Touchpad: Applying InputClass "libinput touchpad catchall"
+[    39.201] (**) ETPS/2 Elantech Touchpad: Applying InputClass "tap-by-default"
+[    39.201] (II) Using input driver 'libinput' for 'ETPS/2 Elantech Touchpad'
+[    39.204] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 35 paused 0
+[    39.204] (**) ETPS/2 Elantech Touchpad: always reports core events
+[    39.204] (**) Option "Device" "/dev/input/event9"
+[    39.208] (II) event9  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[    39.213] (II) event9  - ETPS/2 Elantech Touchpad: device is a touchpad
+[    39.213] (II) event9  - ETPS/2 Elantech Touchpad: device removed
+[    39.213] (**) Option "Tapping" "on"
+[    39.214] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input8/event9"
+[    39.214] (II) XINPUT: Adding extended input device "ETPS/2 Elantech Touchpad" (type: TOUCHPAD, id 13)
+[    39.216] (**) Option "AccelerationScheme" "none"
+[    39.217] (**) ETPS/2 Elantech Touchpad: (accel) selected scheme none/0
+[    39.217] (**) ETPS/2 Elantech Touchpad: (accel) acceleration factor: 2.000
+[    39.217] (**) ETPS/2 Elantech Touchpad: (accel) acceleration threshold: 4
+[    39.219] (II) event9  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[    39.222] (II) event9  - ETPS/2 Elantech Touchpad: device is a touchpad
+[    39.224] (II) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/mouse1)
+[    39.224] (II) No input driver specified, ignoring this device.
+[    39.224] (II) This device may have been added with another device file.
+[    39.225] (II) config/udev: Adding input device PC Speaker (/dev/input/event7)
+[    39.225] (II) No input driver specified, ignoring this device.
+[    39.225] (II) This device may have been added with another device file.
+[    39.232] (II) config/udev: Adding input device Acer WMI hotkeys (/dev/input/event8)
+[    39.232] (**) Acer WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[    39.232] (**) Acer WMI hotkeys: Applying InputClass "system-keyboard"
+[    39.232] (II) Using input driver 'libinput' for 'Acer WMI hotkeys'
+[    39.233] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 36 paused 0
+[    39.233] (**) Acer WMI hotkeys: always reports core events
+[    39.233] (**) Option "Device" "/dev/input/event8"
+[    39.235] (II) event8  - Acer WMI hotkeys: is tagged by udev as: Keyboard
+[    39.235] (II) event8  - Acer WMI hotkeys: device is a keyboard
+[    39.236] (II) event8  - Acer WMI hotkeys: device removed
+[    39.236] (**) Option "config_info" "udev:/sys/devices/virtual/input/input10/event8"
+[    39.236] (II) XINPUT: Adding extended input device "Acer WMI hotkeys" (type: KEYBOARD, id 14)
+[    39.236] (**) Option "xkb_layout" "us"
+[    39.237] (II) event8  - Acer WMI hotkeys: is tagged by udev as: Keyboard
+[    39.237] (II) event8  - Acer WMI hotkeys: device is a keyboard
+[    43.745] (II) RADEON(0): EDID vendor "LGD", prod id 1016
+[    43.745] (II) RADEON(0): Printing DDC gathered Modelines:
+[    43.745] (II) RADEON(0): Modeline "1366x768"x0.0   76.30  1366 1414 1446 1610  768 771 776 790 -hsync -vsync (47.4 kHz eP)
+[    44.295] (II) RADEON(0): EDID vendor "LGD", prod id 1016
+[    44.295] (II) RADEON(0): Printing DDC gathered Modelines:
+[    44.295] (II) RADEON(0): Modeline "1366x768"x0.0   76.30  1366 1414 1446 1610  768 771 776 790 -hsync -vsync (47.4 kHz eP)
+[    81.285] (II) event5  - Logitech USB Optical Mouse: device removed
+[    81.304] (II) config/udev: removing device Logitech USB Optical Mouse
+[    81.304] (**) Option "fd" "32"
+[    81.305] (II) UnloadModule: "libinput"
+[    81.305] (II) systemd-logind: releasing fd for 13:69
+[    81.842] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/mouse0)
+[    81.842] (II) No input driver specified, ignoring this device.
+[    81.842] (II) This device may have been added with another device file.
+[    81.906] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/event5)
+[    81.906] (**) Logitech USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[    81.906] (II) Using input driver 'libinput' for 'Logitech USB Optical Mouse'
+[    81.908] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 53 paused 0
+[    81.908] (**) Logitech USB Optical Mouse: always reports core events
+[    81.908] (**) Option "Device" "/dev/input/event5"
+[    81.914] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[    81.915] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[    81.916] (II) event5  - Logitech USB Optical Mouse: device removed
+[    81.916] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:10.0/usb5/5-1/5-1:1.0/0003:046D:C077.0002/input/input14/event5"
+[    81.916] (II) XINPUT: Adding extended input device "Logitech USB Optical Mouse" (type: MOUSE, id 10)
+[    81.916] (**) Option "AccelerationScheme" "none"
+[    81.917] (**) Logitech USB Optical Mouse: (accel) selected scheme none/0
+[    81.917] (**) Logitech USB Optical Mouse: (accel) acceleration factor: 2.000
+[    81.917] (**) Logitech USB Optical Mouse: (accel) acceleration threshold: 4
+[    81.920] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[    81.921] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[    83.483] (II) event5  - Logitech USB Optical Mouse: device removed
+[    83.489] (II) config/udev: removing device Logitech USB Optical Mouse
+[    83.489] (**) Option "fd" "53"
+[    83.490] (II) UnloadModule: "libinput"
+[    83.490] (II) systemd-logind: releasing fd for 13:69
+[    85.686] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/mouse0)
+[    85.686] (II) No input driver specified, ignoring this device.
+[    85.686] (II) This device may have been added with another device file.
+[    85.752] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/event5)
+[    85.752] (**) Logitech USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[    85.752] (II) Using input driver 'libinput' for 'Logitech USB Optical Mouse'
+[    85.755] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 53 paused 0
+[    85.755] (**) Logitech USB Optical Mouse: always reports core events
+[    85.755] (**) Option "Device" "/dev/input/event5"
+[    85.761] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[    85.762] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[    85.763] (II) event5  - Logitech USB Optical Mouse: device removed
+[    85.763] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:10.0/usb5/5-1/5-1:1.0/0003:046D:C077.0003/input/input15/event5"
+[    85.763] (II) XINPUT: Adding extended input device "Logitech USB Optical Mouse" (type: MOUSE, id 10)
+[    85.764] (**) Option "AccelerationScheme" "none"
+[    85.764] (**) Logitech USB Optical Mouse: (accel) selected scheme none/0
+[    85.764] (**) Logitech USB Optical Mouse: (accel) acceleration factor: 2.000
+[    85.764] (**) Logitech USB Optical Mouse: (accel) acceleration threshold: 4
+[    85.768] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[    85.769] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[   337.229] (II) event5  - Logitech USB Optical Mouse: device removed
+[   337.249] (II) config/udev: removing device Logitech USB Optical Mouse
+[   337.249] (**) Option "fd" "53"
+[   337.251] (II) UnloadModule: "libinput"
+[   337.251] (II) systemd-logind: releasing fd for 13:69
+[   337.767] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/mouse0)
+[   337.767] (II) No input driver specified, ignoring this device.
+[   337.767] (II) This device may have been added with another device file.
+[   337.829] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/event5)
+[   337.829] (**) Logitech USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[   337.829] (II) Using input driver 'libinput' for 'Logitech USB Optical Mouse'
+[   337.831] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 53 paused 0
+[   337.831] (**) Logitech USB Optical Mouse: always reports core events
+[   337.831] (**) Option "Device" "/dev/input/event5"
+[   337.834] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[   337.835] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[   337.836] (II) event5  - Logitech USB Optical Mouse: device removed
+[   337.836] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:10.0/usb5/5-1/5-1:1.0/0003:046D:C077.0004/input/input16/event5"
+[   337.836] (II) XINPUT: Adding extended input device "Logitech USB Optical Mouse" (type: MOUSE, id 10)
+[   337.836] (**) Option "AccelerationScheme" "none"
+[   337.837] (**) Logitech USB Optical Mouse: (accel) selected scheme none/0
+[   337.837] (**) Logitech USB Optical Mouse: (accel) acceleration factor: 2.000
+[   337.837] (**) Logitech USB Optical Mouse: (accel) acceleration threshold: 4
+[   337.840] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[   337.840] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[   433.995] (II) Axis 0 value 2892 is outside expected range [-74, 1554]
+See https://wayland.freedesktop.org/libinput/doc/1.22.1/absolute_coordinate_ranges.html for details
+[   891.158] (II) RADEON(0): EDID vendor "LGD", prod id 1016
+[   891.158] (II) RADEON(0): Printing DDC gathered Modelines:
+[   891.158] (II) RADEON(0): Modeline "1366x768"x0.0   76.30  1366 1414 1446 1610  768 771 776 790 -hsync -vsync (47.4 kHz eP)
+[   891.180] (II) RADEON(0): EDID vendor "LGD", prod id 1016
+[   891.180] (II) RADEON(0): Printing DDC gathered Modelines:
+[   891.180] (II) RADEON(0): Modeline "1366x768"x0.0   76.30  1366 1414 1446 1610  768 771 776 790 -hsync -vsync (47.4 kHz eP)
+[  1072.930] (II) event5  - Logitech USB Optical Mouse: device removed
+[  1072.949] (II) config/udev: removing device Logitech USB Optical Mouse
+[  1072.949] (**) Option "fd" "53"
+[  1072.950] (II) UnloadModule: "libinput"
+[  1072.950] (II) systemd-logind: releasing fd for 13:69
+[  1073.490] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/mouse0)
+[  1073.490] (II) No input driver specified, ignoring this device.
+[  1073.490] (II) This device may have been added with another device file.
+[  1073.539] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/event5)
+[  1073.539] (**) Logitech USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[  1073.539] (II) Using input driver 'libinput' for 'Logitech USB Optical Mouse'
+[  1073.542] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 50 paused 0
+[  1073.543] (**) Logitech USB Optical Mouse: always reports core events
+[  1073.543] (**) Option "Device" "/dev/input/event5"
+[  1073.550] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  1073.551] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  1073.553] (II) event5  - Logitech USB Optical Mouse: device removed
+[  1073.553] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:10.0/usb5/5-1/5-1:1.0/0003:046D:C077.0005/input/input17/event5"
+[  1073.553] (II) XINPUT: Adding extended input device "Logitech USB Optical Mouse" (type: MOUSE, id 10)
+[  1073.554] (**) Option "AccelerationScheme" "none"
+[  1073.554] (**) Logitech USB Optical Mouse: (accel) selected scheme none/0
+[  1073.554] (**) Logitech USB Optical Mouse: (accel) acceleration factor: 2.000
+[  1073.554] (**) Logitech USB Optical Mouse: (accel) acceleration threshold: 4
+[  1073.560] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  1073.561] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  1223.438] (II) event5  - Logitech USB Optical Mouse: device removed
+[  1223.454] (II) config/udev: removing device Logitech USB Optical Mouse
+[  1223.454] (**) Option "fd" "50"
+[  1223.455] (II) UnloadModule: "libinput"
+[  1223.455] (II) systemd-logind: releasing fd for 13:69
+[  1223.970] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/mouse0)
+[  1223.970] (II) No input driver specified, ignoring this device.
+[  1223.970] (II) This device may have been added with another device file.
+[  1224.024] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/event5)
+[  1224.024] (**) Logitech USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[  1224.024] (II) Using input driver 'libinput' for 'Logitech USB Optical Mouse'
+[  1224.026] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 49 paused 0
+[  1224.026] (**) Logitech USB Optical Mouse: always reports core events
+[  1224.026] (**) Option "Device" "/dev/input/event5"
+[  1224.029] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  1224.030] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  1224.031] (II) event5  - Logitech USB Optical Mouse: device removed
+[  1224.031] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:10.0/usb5/5-1/5-1:1.0/0003:046D:C077.0006/input/input18/event5"
+[  1224.031] (II) XINPUT: Adding extended input device "Logitech USB Optical Mouse" (type: MOUSE, id 10)
+[  1224.031] (**) Option "AccelerationScheme" "none"
+[  1224.031] (**) Logitech USB Optical Mouse: (accel) selected scheme none/0
+[  1224.031] (**) Logitech USB Optical Mouse: (accel) acceleration factor: 2.000
+[  1224.031] (**) Logitech USB Optical Mouse: (accel) acceleration threshold: 4
+[  1224.035] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  1224.035] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  2326.692] (II) event5  - Logitech USB Optical Mouse: device removed
+[  2326.710] (II) config/udev: removing device Logitech USB Optical Mouse
+[  2326.710] (**) Option "fd" "49"
+[  2326.711] (II) UnloadModule: "libinput"
+[  2326.711] (II) systemd-logind: releasing fd for 13:69
+[  2328.292] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/mouse0)
+[  2328.292] (II) No input driver specified, ignoring this device.
+[  2328.292] (II) This device may have been added with another device file.
+[  2328.350] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/event5)
+[  2328.350] (**) Logitech USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[  2328.350] (II) Using input driver 'libinput' for 'Logitech USB Optical Mouse'
+[  2328.352] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 48 paused 0
+[  2328.352] (**) Logitech USB Optical Mouse: always reports core events
+[  2328.352] (**) Option "Device" "/dev/input/event5"
+[  2328.356] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  2328.356] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  2328.357] (II) event5  - Logitech USB Optical Mouse: device removed
+[  2328.357] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:10.0/usb5/5-1/5-1:1.0/0003:046D:C077.0007/input/input19/event5"
+[  2328.357] (II) XINPUT: Adding extended input device "Logitech USB Optical Mouse" (type: MOUSE, id 10)
+[  2328.358] (**) Option "AccelerationScheme" "none"
+[  2328.358] (**) Logitech USB Optical Mouse: (accel) selected scheme none/0
+[  2328.358] (**) Logitech USB Optical Mouse: (accel) acceleration factor: 2.000
+[  2328.358] (**) Logitech USB Optical Mouse: (accel) acceleration threshold: 4
+[  2328.361] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  2328.362] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  2449.464] (II) event5  - Logitech USB Optical Mouse: device removed
+[  2449.484] (II) config/udev: removing device Logitech USB Optical Mouse
+[  2449.484] (**) Option "fd" "48"
+[  2449.485] (II) UnloadModule: "libinput"
+[  2449.485] (II) systemd-logind: releasing fd for 13:69
+[  2450.131] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/mouse0)
+[  2450.131] (II) No input driver specified, ignoring this device.
+[  2450.131] (II) This device may have been added with another device file.
+[  2450.211] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/event5)
+[  2450.211] (**) Logitech USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[  2450.211] (II) Using input driver 'libinput' for 'Logitech USB Optical Mouse'
+[  2450.213] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 49 paused 0
+[  2450.213] (**) Logitech USB Optical Mouse: always reports core events
+[  2450.213] (**) Option "Device" "/dev/input/event5"
+[  2450.216] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  2450.217] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  2450.218] (II) event5  - Logitech USB Optical Mouse: device removed
+[  2450.218] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:10.0/usb5/5-1/5-1:1.0/0003:046D:C077.0008/input/input20/event5"
+[  2450.218] (II) XINPUT: Adding extended input device "Logitech USB Optical Mouse" (type: MOUSE, id 10)
+[  2450.218] (**) Option "AccelerationScheme" "none"
+[  2450.218] (**) Logitech USB Optical Mouse: (accel) selected scheme none/0
+[  2450.218] (**) Logitech USB Optical Mouse: (accel) acceleration factor: 2.000
+[  2450.218] (**) Logitech USB Optical Mouse: (accel) acceleration threshold: 4
+[  2450.222] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  2450.222] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  2671.938] (II) config/udev: removing device Power Button
+[  2671.939] (**) Option "fd" "26"
+[  2671.939] (II) event3  - Power Button: device removed
+[  2671.940] (II) UnloadModule: "libinput"
+[  2671.940] (II) systemd-logind: releasing fd for 13:67
+[  2671.963] (II) config/udev: Adding input device Power Button (/dev/input/event3)
+[  2671.963] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[  2671.963] (**) Power Button: Applying InputClass "system-keyboard"
+[  2671.963] (II) Using input driver 'libinput' for 'Power Button'
+[  2671.964] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 41 paused 0
+[  2671.964] (**) Power Button: always reports core events
+[  2671.964] (**) Option "Device" "/dev/input/event3"
+[  2671.966] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[  2671.967] (II) event3  - Power Button: device is a keyboard
+[  2671.967] (II) event3  - Power Button: device removed
+[  2671.967] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input3/event3"
+[  2671.967] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[  2671.967] (**) Option "xkb_layout" "us"
+[  2671.970] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[  2671.971] (II) event3  - Power Button: device is a keyboard
+[  2671.979] (II) config/udev: removing device Video Bus
+[  2671.979] (**) Option "fd" "29"
+[  2671.979] (II) event6  - Video Bus: device removed
+[  2671.980] (II) UnloadModule: "libinput"
+[  2671.980] (II) systemd-logind: releasing fd for 13:70
+[  2672.026] (II) config/udev: Adding input device Video Bus (/dev/input/event6)
+[  2672.026] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[  2672.027] (**) Video Bus: Applying InputClass "system-keyboard"
+[  2672.027] (II) Using input driver 'libinput' for 'Video Bus'
+[  2672.038] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 29 paused 0
+[  2672.038] (**) Video Bus: always reports core events
+[  2672.038] (**) Option "Device" "/dev/input/event6"
+[  2672.040] (II) event6  - Video Bus: is tagged by udev as: Keyboard
+[  2672.040] (II) event6  - Video Bus: device is a keyboard
+[  2672.041] (II) event6  - Video Bus: device removed
+[  2672.041] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input7/event6"
+[  2672.041] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[  2672.041] (**) Option "xkb_layout" "us"
+[  2672.044] (II) event6  - Video Bus: is tagged by udev as: Keyboard
+[  2672.045] (II) event6  - Video Bus: device is a keyboard
+[  2672.052] (II) config/udev: Adding input device Lid Switch (/dev/input/event1)
+[  2672.052] (II) No input driver specified, ignoring this device.
+[  2672.053] (II) This device may have been added with another device file.
+[  2672.082] (II) RADEON(0): EDID vendor "LGD", prod id 1016
+[  2672.082] (II) RADEON(0): Printing DDC gathered Modelines:
+[  2672.082] (II) RADEON(0): Modeline "1366x768"x0.0   76.30  1366 1414 1446 1610  768 771 776 790 -hsync -vsync (47.4 kHz eP)
+[  2672.100] (II) config/udev: removing device Power Button
+[  2672.100] (**) Option "fd" "30"
+[  2672.100] (II) event0  - Power Button: device removed
+[  2672.101] (II) UnloadModule: "libinput"
+[  2672.101] (II) systemd-logind: releasing fd for 13:64
+[  2672.130] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[  2672.130] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[  2672.130] (**) Power Button: Applying InputClass "system-keyboard"
+[  2672.130] (II) Using input driver 'libinput' for 'Power Button'
+[  2672.132] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 30 paused 0
+[  2672.132] (**) Power Button: always reports core events
+[  2672.132] (**) Option "Device" "/dev/input/event0"
+[  2672.134] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[  2672.134] (II) event0  - Power Button: device is a keyboard
+[  2672.136] (II) event0  - Power Button: device removed
+[  2672.137] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[  2672.137] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[  2672.137] (**) Option "xkb_layout" "us"
+[  2672.140] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[  2672.140] (II) event0  - Power Button: device is a keyboard
+[  2672.150] (II) config/udev: removing device Sleep Button
+[  2672.150] (**) Option "fd" "31"
+[  2672.150] (II) event2  - Sleep Button: device removed
+[  2672.151] (II) UnloadModule: "libinput"
+[  2672.151] (II) systemd-logind: releasing fd for 13:66
+[  2672.216] (II) config/udev: Adding input device Sleep Button (/dev/input/event2)
+[  2672.216] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[  2672.216] (**) Sleep Button: Applying InputClass "system-keyboard"
+[  2672.216] (II) Using input driver 'libinput' for 'Sleep Button'
+[  2672.220] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 31 paused 0
+[  2672.220] (**) Sleep Button: always reports core events
+[  2672.220] (**) Option "Device" "/dev/input/event2"
+[  2672.222] (II) event2  - Sleep Button: is tagged by udev as: Keyboard
+[  2672.222] (II) event2  - Sleep Button: device is a keyboard
+[  2672.223] (II) event2  - Sleep Button: device removed
+[  2672.223] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2/event2"
+[  2672.223] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9)
+[  2672.223] (**) Option "xkb_layout" "us"
+[  2672.226] (II) event2  - Sleep Button: is tagged by udev as: Keyboard
+[  2672.226] (II) event2  - Sleep Button: device is a keyboard
+[  2672.236] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/mouse0)
+[  2672.236] (II) No input driver specified, ignoring this device.
+[  2672.236] (II) This device may have been added with another device file.
+[  2672.238] (II) config/udev: Adding input device HDA ATI HDMI HDMI/DP,pcm=3 (/dev/input/event10)
+[  2672.238] (II) No input driver specified, ignoring this device.
+[  2672.238] (II) This device may have been added with another device file.
+[  2672.240] (II) config/udev: removing device Logitech USB Optical Mouse
+[  2672.240] (**) Option "fd" "49"
+[  2672.240] (II) event5  - Logitech USB Optical Mouse: device removed
+[  2672.250] (II) UnloadModule: "libinput"
+[  2672.250] (II) systemd-logind: releasing fd for 13:69
+[  2672.290] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/event5)
+[  2672.290] (**) Logitech USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[  2672.290] (II) Using input driver 'libinput' for 'Logitech USB Optical Mouse'
+[  2672.293] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 48 paused 0
+[  2672.293] (**) Logitech USB Optical Mouse: always reports core events
+[  2672.293] (**) Option "Device" "/dev/input/event5"
+[  2672.296] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  2672.297] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  2672.297] (II) event5  - Logitech USB Optical Mouse: device removed
+[  2672.297] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:10.0/usb5/5-1/5-1:1.0/0003:046D:C077.0008/input/input20/event5"
+[  2672.297] (II) XINPUT: Adding extended input device "Logitech USB Optical Mouse" (type: MOUSE, id 10)
+[  2672.298] (**) Option "AccelerationScheme" "none"
+[  2672.298] (**) Logitech USB Optical Mouse: (accel) selected scheme none/0
+[  2672.298] (**) Logitech USB Optical Mouse: (accel) acceleration factor: 2.000
+[  2672.298] (**) Logitech USB Optical Mouse: (accel) acceleration threshold: 4
+[  2672.302] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  2672.302] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  2672.312] (II) config/udev: Adding input device HD-Audio Generic Headphone (/dev/input/event12)
+[  2672.312] (II) No input driver specified, ignoring this device.
+[  2672.312] (II) This device may have been added with another device file.
+[  2672.313] (II) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/mouse1)
+[  2672.313] (II) No input driver specified, ignoring this device.
+[  2672.313] (II) This device may have been added with another device file.
+[  2672.314] (II) config/udev: removing device AT Translated Set 2 keyboard
+[  2672.315] (**) Option "fd" "34"
+[  2672.315] (II) event4  - AT Translated Set 2 keyboard: device removed
+[  2672.316] (II) UnloadModule: "libinput"
+[  2672.316] (II) systemd-logind: releasing fd for 13:68
+[  2672.333] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event4)
+[  2672.333] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[  2672.333] (**) AT Translated Set 2 keyboard: Applying InputClass "system-keyboard"
+[  2672.333] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[  2672.345] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 34 paused 0
+[  2672.345] (**) AT Translated Set 2 keyboard: always reports core events
+[  2672.345] (**) Option "Device" "/dev/input/event4"
+[  2672.347] (II) event4  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[  2672.347] (II) event4  - AT Translated Set 2 keyboard: device is a keyboard
+[  2672.349] (II) event4  - AT Translated Set 2 keyboard: device removed
+[  2672.349] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input4/event4"
+[  2672.349] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 12)
+[  2672.349] (**) Option "xkb_layout" "us"
+[  2672.359] (II) event4  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[  2672.359] (II) event4  - AT Translated Set 2 keyboard: device is a keyboard
+[  2672.370] (II) config/udev: removing device HD WebCam: HD WebCam
+[  2672.371] (**) Option "fd" "33"
+[  2672.371] (II) event11 - HD WebCam: HD WebCam: device removed
+[  2672.371] (II) UnloadModule: "libinput"
+[  2672.371] (II) systemd-logind: releasing fd for 13:75
+[  2672.440] (II) config/udev: Adding input device HD WebCam: HD WebCam (/dev/input/event11)
+[  2672.440] (**) HD WebCam: HD WebCam: Applying InputClass "libinput keyboard catchall"
+[  2672.440] (**) HD WebCam: HD WebCam: Applying InputClass "system-keyboard"
+[  2672.440] (II) Using input driver 'libinput' for 'HD WebCam: HD WebCam'
+[  2672.444] (II) systemd-logind: got fd for /dev/input/event11 13:75 fd 33 paused 0
+[  2672.444] (**) HD WebCam: HD WebCam: always reports core events
+[  2672.444] (**) Option "Device" "/dev/input/event11"
+[  2672.447] (II) event11 - HD WebCam: HD WebCam: is tagged by udev as: Keyboard
+[  2672.447] (II) event11 - HD WebCam: HD WebCam: device is a keyboard
+[  2672.448] (II) event11 - HD WebCam: HD WebCam: device removed
+[  2672.448] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:13.2/usb3/3-1/3-1:1.0/input/input12/event11"
+[  2672.448] (II) XINPUT: Adding extended input device "HD WebCam: HD WebCam" (type: KEYBOARD, id 11)
+[  2672.448] (**) Option "xkb_layout" "us"
+[  2672.473] (II) event11 - HD WebCam: HD WebCam: is tagged by udev as: Keyboard
+[  2672.473] (II) event11 - HD WebCam: HD WebCam: device is a keyboard
+[  2672.475] (EE) event5  - Logitech USB Optical Mouse: client bug: event processing lagging behind by 135ms, your system is too slow
+[  2672.482] (II) config/udev: Adding input device PC Speaker (/dev/input/event7)
+[  2672.482] (II) No input driver specified, ignoring this device.
+[  2672.482] (II) This device may have been added with another device file.
+[  2672.483] (II) config/udev: removing device ETPS/2 Elantech Touchpad
+[  2672.483] (**) Option "fd" "35"
+[  2672.483] (II) event9  - ETPS/2 Elantech Touchpad: device removed
+[  2672.492] (II) UnloadModule: "libinput"
+[  2672.492] (II) systemd-logind: releasing fd for 13:73
+[  2672.530] (II) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/event9)
+[  2672.530] (**) ETPS/2 Elantech Touchpad: Applying InputClass "libinput touchpad catchall"
+[  2672.530] (**) ETPS/2 Elantech Touchpad: Applying InputClass "tap-by-default"
+[  2672.530] (II) Using input driver 'libinput' for 'ETPS/2 Elantech Touchpad'
+[  2672.533] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 35 paused 0
+[  2672.533] (**) ETPS/2 Elantech Touchpad: always reports core events
+[  2672.533] (**) Option "Device" "/dev/input/event9"
+[  2672.536] (II) event9  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[  2672.537] (II) event9  - ETPS/2 Elantech Touchpad: device is a touchpad
+[  2672.538] (II) event9  - ETPS/2 Elantech Touchpad: device removed
+[  2672.538] (**) Option "Tapping" "on"
+[  2672.538] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input8/event9"
+[  2672.538] (II) XINPUT: Adding extended input device "ETPS/2 Elantech Touchpad" (type: TOUCHPAD, id 13)
+[  2672.540] (**) Option "AccelerationScheme" "none"
+[  2672.540] (**) ETPS/2 Elantech Touchpad: (accel) selected scheme none/0
+[  2672.540] (**) ETPS/2 Elantech Touchpad: (accel) acceleration factor: 2.000
+[  2672.540] (**) ETPS/2 Elantech Touchpad: (accel) acceleration threshold: 4
+[  2672.543] (II) event9  - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[  2672.545] (II) event9  - ETPS/2 Elantech Touchpad: device is a touchpad
+[  2672.552] (II) config/udev: removing device Acer WMI hotkeys
+[  2672.552] (**) Option "fd" "36"
+[  2672.552] (II) event8  - Acer WMI hotkeys: device removed
+[  2672.553] (II) UnloadModule: "libinput"
+[  2672.553] (II) systemd-logind: releasing fd for 13:72
+[  2672.555] (II) config/udev: Adding input device Acer WMI hotkeys (/dev/input/event8)
+[  2672.555] (**) Acer WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[  2672.555] (**) Acer WMI hotkeys: Applying InputClass "system-keyboard"
+[  2672.555] (II) Using input driver 'libinput' for 'Acer WMI hotkeys'
+[  2672.557] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 36 paused 0
+[  2672.557] (**) Acer WMI hotkeys: always reports core events
+[  2672.557] (**) Option "Device" "/dev/input/event8"
+[  2672.558] (II) event8  - Acer WMI hotkeys: is tagged by udev as: Keyboard
+[  2672.558] (II) event8  - Acer WMI hotkeys: device is a keyboard
+[  2672.559] (II) event8  - Acer WMI hotkeys: device removed
+[  2672.559] (**) Option "config_info" "udev:/sys/devices/virtual/input/input10/event8"
+[  2672.559] (II) XINPUT: Adding extended input device "Acer WMI hotkeys" (type: KEYBOARD, id 14)
+[  2672.559] (**) Option "xkb_layout" "us"
+[  2672.561] (II) event8  - Acer WMI hotkeys: is tagged by udev as: Keyboard
+[  2672.562] (II) event8  - Acer WMI hotkeys: device is a keyboard
+[  2839.866] (II) event5  - Logitech USB Optical Mouse: device removed
+[  2839.929] (II) config/udev: removing device Logitech USB Optical Mouse
+[  2839.929] (**) Option "fd" "48"
+[  2839.935] (II) UnloadModule: "libinput"
+[  2839.935] (II) systemd-logind: releasing fd for 13:69
+[  2839.936] (EE) systemd-logind: failed to release device: Device not taken
+[  2840.463] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/mouse0)
+[  2840.463] (II) No input driver specified, ignoring this device.
+[  2840.463] (II) This device may have been added with another device file.
+[  2840.571] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/event5)
+[  2840.571] (**) Logitech USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[  2840.571] (II) Using input driver 'libinput' for 'Logitech USB Optical Mouse'
+[  2840.574] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 57 paused 0
+[  2840.574] (**) Logitech USB Optical Mouse: always reports core events
+[  2840.574] (**) Option "Device" "/dev/input/event5"
+[  2840.583] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  2840.584] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  2840.585] (II) event5  - Logitech USB Optical Mouse: device removed
+[  2840.585] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:10.0/usb5/5-1/5-1:1.0/0003:046D:C077.0009/input/input21/event5"
+[  2840.586] (II) XINPUT: Adding extended input device "Logitech USB Optical Mouse" (type: MOUSE, id 10)
+[  2840.587] (**) Option "AccelerationScheme" "none"
+[  2840.587] (**) Logitech USB Optical Mouse: (accel) selected scheme none/0
+[  2840.587] (**) Logitech USB Optical Mouse: (accel) acceleration factor: 2.000
+[  2840.587] (**) Logitech USB Optical Mouse: (accel) acceleration threshold: 4
+[  2840.594] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  2840.595] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  2871.384] (II) event5  - Logitech USB Optical Mouse: device removed
+[  2871.402] (II) config/udev: removing device Logitech USB Optical Mouse
+[  2871.402] (**) Option "fd" "57"
+[  2871.403] (II) UnloadModule: "libinput"
+[  2871.403] (II) systemd-logind: releasing fd for 13:69
+[  2871.912] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/mouse0)
+[  2871.912] (II) No input driver specified, ignoring this device.
+[  2871.912] (II) This device may have been added with another device file.
+[  2871.964] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/event5)
+[  2871.964] (**) Logitech USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[  2871.964] (II) Using input driver 'libinput' for 'Logitech USB Optical Mouse'
+[  2871.968] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 57 paused 0
+[  2871.968] (**) Logitech USB Optical Mouse: always reports core events
+[  2871.968] (**) Option "Device" "/dev/input/event5"
+[  2871.975] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  2871.976] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  2871.977] (II) event5  - Logitech USB Optical Mouse: device removed
+[  2871.978] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:10.0/usb5/5-1/5-1:1.0/0003:046D:C077.000A/input/input22/event5"
+[  2871.978] (II) XINPUT: Adding extended input device "Logitech USB Optical Mouse" (type: MOUSE, id 10)
+[  2871.979] (**) Option "AccelerationScheme" "none"
+[  2871.979] (**) Logitech USB Optical Mouse: (accel) selected scheme none/0
+[  2871.979] (**) Logitech USB Optical Mouse: (accel) acceleration factor: 2.000
+[  2871.979] (**) Logitech USB Optical Mouse: (accel) acceleration threshold: 4
+[  2871.983] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  2871.984] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  2921.365] (II) event5  - Logitech USB Optical Mouse: device removed
+[  2921.386] (II) config/udev: removing device Logitech USB Optical Mouse
+[  2921.386] (**) Option "fd" "57"
+[  2921.389] (II) UnloadModule: "libinput"
+[  2921.389] (II) systemd-logind: releasing fd for 13:69
+[  2921.907] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/mouse0)
+[  2921.907] (II) No input driver specified, ignoring this device.
+[  2921.907] (II) This device may have been added with another device file.
+[  2921.972] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/event5)
+[  2921.972] (**) Logitech USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[  2921.972] (II) Using input driver 'libinput' for 'Logitech USB Optical Mouse'
+[  2921.976] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 57 paused 0
+[  2921.976] (**) Logitech USB Optical Mouse: always reports core events
+[  2921.976] (**) Option "Device" "/dev/input/event5"
+[  2921.985] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  2921.986] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  2921.988] (II) event5  - Logitech USB Optical Mouse: device removed
+[  2921.988] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:10.0/usb5/5-1/5-1:1.0/0003:046D:C077.000B/input/input23/event5"
+[  2921.988] (II) XINPUT: Adding extended input device "Logitech USB Optical Mouse" (type: MOUSE, id 10)
+[  2921.990] (**) Option "AccelerationScheme" "none"
+[  2921.991] (**) Logitech USB Optical Mouse: (accel) selected scheme none/0
+[  2921.991] (**) Logitech USB Optical Mouse: (accel) acceleration factor: 2.000
+[  2921.991] (**) Logitech USB Optical Mouse: (accel) acceleration threshold: 4
+[  2921.999] (II) event5  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[  2922.001] (II) event5  - Logitech USB Optical Mouse: device is a pointer
+[  3079.721] (**) Option "fd" "41"
+[  3079.721] (II) event3  - Power Button: device removed
+[  3079.721] (**) Option "fd" "29"
+[  3079.721] (II) event6  - Video Bus: device removed
+[  3079.722] (**) Option "fd" "30"
+[  3079.722] (II) event0  - Power Button: device removed
+[  3079.722] (**) Option "fd" "31"
+[  3079.722] (II) event2  - Sleep Button: device removed
+[  3079.722] (**) Option "fd" "34"
+[  3079.722] (II) event4  - AT Translated Set 2 keyboard: device removed
+[  3079.722] (**) Option "fd" "33"
+[  3079.722] (II) event11 - HD WebCam: HD WebCam: device removed
+[  3079.722] (**) Option "fd" "35"
+[  3079.722] (II) event9  - ETPS/2 Elantech Touchpad: device removed
+[  3079.722] (**) Option "fd" "36"
+[  3079.722] (II) event8  - Acer WMI hotkeys: device removed
+[  3079.722] (**) Option "fd" "57"
+[  3079.722] (II) event5  - Logitech USB Optical Mouse: device removed
+[  3079.729] (II) UnloadModule: "libinput"
+[  3079.729] (II) systemd-logind: releasing fd for 13:69
+[  3079.868] (II) UnloadModule: "libinput"
+[  3079.869] (II) systemd-logind: releasing fd for 13:72
+[  3079.870] (II) UnloadModule: "libinput"
+[  3079.870] (II) systemd-logind: releasing fd for 13:73
+[  3079.871] (II) UnloadModule: "libinput"
+[  3079.871] (II) systemd-logind: releasing fd for 13:75
+[  3079.872] (II) UnloadModule: "libinput"
+[  3079.872] (II) systemd-logind: releasing fd for 13:68
+[  3079.873] (II) UnloadModule: "libinput"
+[  3079.873] (II) systemd-logind: releasing fd for 13:66
+[  3079.874] (II) UnloadModule: "libinput"
+[  3079.874] (II) systemd-logind: releasing fd for 13:64
+[  3079.875] (II) UnloadModule: "libinput"
+[  3079.875] (II) systemd-logind: releasing fd for 13:70
+[  3079.877] (II) UnloadModule: "libinput"
+[  3079.877] (II) systemd-logind: releasing fd for 13:67
+[  3079.881] (WW) xf86CloseConsole: KDSETMODE failed: Input/output error
+[  3079.881] (WW) xf86CloseConsole: VT_GETMODE failed: Input/output error
+[  3079.881] (WW) xf86OpenConsole: VT_GETSTATE failed: Input/output error
+[  3079.883] (II) Server terminated successfully (0). Closing log file.
